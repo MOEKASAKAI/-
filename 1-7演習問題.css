@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header {
+.main-visual {
   width: 100%;
   height: 400px;
   background-image: url(1-7演習問題img/mv.jpg);
