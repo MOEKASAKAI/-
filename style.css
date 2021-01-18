@@ -75,7 +75,7 @@ main {
 .blog-heading {
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
-  line-height: 0.6; /* フォントサイズの行の高さは0.6倍になる */
+  line-height: 0.6; /* フォントサイズに対して行の高さが0.6倍になる */
 }
 
 .blog-box {
