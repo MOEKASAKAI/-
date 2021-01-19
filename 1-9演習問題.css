@@ -19,6 +19,8 @@ main {
   background-color: #eeeeee;
   width: 300px;
   margin-right: 30px;
+  padding: 10px;
+  position: relative;
 }
 
 .main-item:nth-child(3) {
@@ -26,41 +28,37 @@ main {
 }
 
 .main-step {
+  padding: 3px;
   background-color: #ff9a4b;
-  color: #eeeeee;
-  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .main-image1 {
   height: 150px;
-  margin: 10px;
   background-image: url(1-9演習問題img/flow01.png);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
 .main-image2 {
   height: 150px;
-  margin: 10px;
   background-image: url(1-9演習問題img/flow02.png);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
 .main-image3 {
   height: 150px;
-  margin: 10px;
   background-image: url(1-9演習問題img/flow03.png);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
 .main-title {
-  margin-top: 15px;
-}
-
-.main-text {
-  margin-top: 5px;
+  margin: 15px 0 5px;
 }
 
 footer {
